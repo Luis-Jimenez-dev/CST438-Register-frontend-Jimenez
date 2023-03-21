@@ -24,10 +24,12 @@ class addStudent extends Component {
     };
   }
 
+  //Handles changes in the fields as they are being typed
   handleChange = (event) => {
     this.setState({ [event.target.name]: event.target.value });
   };
 
+  //Handels the submission of the data from the Form element
   handleSubmit = async (event) => {
     event.preventDefault();
     const { name, email, stateCode } = this.state;
@@ -41,6 +43,7 @@ class addStudent extends Component {
     }
   };
 
+  //Renders web page
   render() {
     const { name, email, stateCode } = this.state;
 
