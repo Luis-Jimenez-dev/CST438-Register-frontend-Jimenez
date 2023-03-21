@@ -49,7 +49,7 @@ class addStudent extends Component {
 
     return (
       <div>
-        <h2>Create New Assignment</h2>
+        <h2>Add Student</h2>
         <form onSubmit={this.handleSubmit.bind(this)}>
           <label htmlFor="name">Name:</label>
           <input
