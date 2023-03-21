@@ -81,7 +81,7 @@ class addStudent extends Component {
             required
           />
           <br />
-          <button type="submit">Create Assignment</button>
+          <button type="submit">Add Student</button>
         </form>
       </div>
     );
